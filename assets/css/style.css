@@ -2,7 +2,7 @@
 
 
 
-
+/**
 #bg {
   position: fixed;
   top: 0;
@@ -16,6 +16,7 @@
   padding: 0;
   position: relative;
 }
+
 
 
 .navbar-default {
@@ -58,21 +59,63 @@
 .bg-color-contact {
   background-color: #008000;
 }
-
-.background {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
+**/
+body {
+  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-
 .home {
-  position: relative;
-  width: 40px;
-  height: 40px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 300px;
+  left: 520px;
+
   z-index: 2;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 18px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 18px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 18px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+.text {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 510px;
+  left: 535px;
+  color: #ffffff;
+  z-index: 2;
+
+}
+
+.text2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 545px;
+  left: 545px;
+  color: #ffffff;
+  z-index: 2;
+
+}
+
+.social-btn {
+  position: absolute;
+
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  top: 620px;
+  left: 590px;
+  z-index: 2;
+
+}
+
+/**
 .container {
   width: 500px;
   height: 500px;
@@ -80,8 +123,27 @@
 
 }
 
-.sketch-images li {
-  list-style-type: none;
+**/
+
+.sketch-img ul li {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 300px;
+  left: 100px;
+  display: inline-block;
+  z-index: 2;
+}
+
+.finished-image ul li {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 300px;
+  left: 100px;
+  display: inline-block;
+  z-index: 2;
+
 }
 
 .homepage-img {
@@ -93,17 +155,71 @@
   padding: 0px;
 }
 
-.text {
+.box {
   text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 300px;
+  left: 5px;
+ 
+}
+
+.box2 {
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  top: 300px;
+  left: 50px;
+ 
+}
+
+.box3 {
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  top: 300px;
+  left: 50px;
+
+}
+
+.box4,
+iframe {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 150px;
+  left: 100px;
+  z-index: 2;
+ 
 }
 
 .footer {
   background-color: #4a4a4f;
   padding: 25px;
-  margin-top: 125px;
+  margin-top: 0px;
 }
 
 .footer,
 p {
   color: #ffffff;
+}
+
+@media (min-width: 768px){
+    .column{
+        float: left;
+    }
+    .column-60{
+        width: 60%;
+    }
+    .column-40{
+        width: 40%;
+    }
 }
