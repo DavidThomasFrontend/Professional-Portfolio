@@ -2,79 +2,120 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>contact</title>
+
+    <title>Contact</title>
 </head>
 
 <body>
 
-    <div="container">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div id="menu" class="navbar navbar-default navbar-font navbar-background top-nav">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item bg-color">
-                            <a class="nav-link active" href="#">DAVID THOMAS</a>
+        <a class="navbar-brand" href="#">DAVID THOMAS</a>
 
-                        </li>
-                        <li class="nav-item bg-color-home font-color">
-                            <a class="nav-link" href="#"><i class="fas fa-home"></i> HOME</a>
-                        </li>
-                        <li class="nav-item bg-color-sketch">
-                            <a class="nav-link" href="sketches.html"><i class="fas fa-pencil-alt"></i> SKETCHBOOK</a>
-                        </li>
-                        <li class="nav-item bg-color-finished">
-                            <a class="nav-link" href="#"><i class="fas fa-palette"></i> FINISHED ART</a>
-                        </li>
-                        <li class="nav-item bg-color-videos">
-                            <a class="nav-link" href="#"><i class="fas fa-video"></i> PROCESS VIDEOS</a>
-                        </li>
-                        <li class="nav-item bg-color-contact">
-                            <a class="nav-link" href="#"><i class="fas fa-comment-alt"></i> CONTACT</a>
-                        </li>
-                    </ul>
-                    <div class=search-container>
-                        <input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div id="theTarget">
+                <ul class="navbar-nav">
+                    <li class="nav-item bg-color-home font-color">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> HOME</a>
+                    </li>
+                    <li class="nav-item bg-color-sketch">
+                        <a class="nav-link" href="sketches.html"><i class="fas fa-pencil-alt"></i> SKETCHBOOK</a>
+                    </li>
+                    <li class="nav-item bg-color-finished">
+                        <a class="nav-link" href="finished-art.html"><i class="fas fa-palette"></i> FINISHED ART</a>
+                    </li>
+                    <li class="nav-item bg-color-videos">
+                        <a class="nav-link" href="process.html"><i class="fas fa-video"></i> PROCESS VIDEOS</a>
+                    </li>
+                    <li class="nav-item bg-color-contact">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-comment-alt"></i> CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="container contact-form">
+            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+        </div>
+        <form method="post">
+            <h3>Drop Us a Message</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
                     </div>
                 </div>
             </div>
-        </div>
-<section class = "container-fluid">
-        <div class="row bg-color-contact ">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">Got a Project in mind?</h3>
-                <h5 class="uppercase text-center">Lets work together!</h5>
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class= "form-control" placeholder= "Name" required />
-                        <input type="text" name="email" id="emailaddress" class= "form-control" placeholder= "Email" required />
-                        <textarea rows = "5" name="projectsummary" id="projectsummary" class= "form-control" placeholder= "Project Description" required ></textarea>
-                        <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-secondary">Send Project Request</button>
-                        </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        </form>
         </div>
 
     </section>
-        
-          
-        
-        <footer>
-            <div class="footer">
-                <p> Want to contact me about future projects? Email me at david.thomas1986@gmail.com </p>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <!-- Footer Location -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">What to get in touch? Email me here at</h4>
+                    <p class="lead mb-0">david.thomas1986@gmail.com</p>
+                </div>
+
+                <!-- Footer Social Icons -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Check out my artwork on various social media platforms!</h4>
+                    <div class="social-btn">
+                        <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
+                        <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- Footer About Text -->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Me</h4>
+                    <p class="lead mb-0"> I am an up and coming illustrator, animator and graphic designer looking for creative opportunities in the industry!
+                    </p>
+                </div>
 
             </div>
-        </footer>
+        </div>
+    </footer>
+
 </body>
 
 </html>

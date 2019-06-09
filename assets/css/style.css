@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis 100,200,300,400,500,600,700');
 
-
+web-bkgrnd-1 {
+    background: url('images/example.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /**
 #bg {
@@ -163,6 +169,7 @@ body {
   height: auto;
   top: 300px;
   left: 5px;
+  z-index: 2;
  
 }
 
@@ -174,6 +181,7 @@ body {
   height: 1200px;
   top: 300px;
   left: 50px;
+  z-index: 2;
  
 }
 
@@ -185,6 +193,7 @@ body {
   height: 1200px;
   top: 300px;
   left: 50px;
+  z-index: 2;
 
 }
 
@@ -212,14 +221,35 @@ p {
   color: #ffffff;
 }
 
-@media (min-width: 768px){
-    .column{
-        float: left;
-    }
-    .column-60{
-        width: 60%;
-    }
-    .column-40{
-        width: 40%;
-    }
+.contact-form{
+  padding: 200px;
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
 }
+
+.contact-image i{
+  height: 100px;
+  width: 100px;
+}
+
+ /* Tabled Portrait */
+    @media screen and (max-width: 768px) {
+        #wrapper { width:100%; }
+     }
+
+    /* Tabled Portrait */
+    @media screen and (max-width: 768px) {
+        #wrapper { width:100%; }
+     }
+
+     /* iphone */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        web-bkgrnd-1{ max-width: 100%; }
+    }
+
+    /* ipad */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+web-bkgrnd-1{ max-width: 100%; }
+    }

@@ -2,76 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Finished-Art</title>
+
+    <title>Finished Art</title>
 </head>
 
 <body>
 
-    <div="container">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div id="menu" class="navbar navbar-default navbar-font navbar-background top-nav">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item bg-color">
-                            <a class="nav-link active" href="#">DAVID THOMAS</a>
+        <a class="navbar-brand" href="#">DAVID THOMAS</a>
 
-                        </li>
-                        <li class="nav-item bg-color-home font-color">
-                            <a class="nav-link" href="#"><i class="fas fa-home"></i> HOME</a>
-                        </li>
-                        <li class="nav-item bg-color-sketch">
-                            <a class="nav-link" href="sketches.html"><i class="fas fa-pencil-alt"></i> SKETCHBOOK</a>
-                        </li>
-                        <li class="nav-item bg-color-finished">
-                            <a class="nav-link" href="#"><i class="fas fa-palette"></i> FINISHED ART</a>
-                        </li>
-                        <li class="nav-item bg-color-videos">
-                            <a class="nav-link" href="#"><i class="fas fa-video"></i> PROCESS VIDEOS</a>
-                        </li>
-                        <li class="nav-item bg-color-contact">
-                            <a class="nav-link" href="#"><i class="fas fa-comment-alt"></i> CONTACT</a>
-                        </li>
-                    </ul>
-                    <div class=search-container>
-                        <input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button>
-                    </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div id="theTarget">
+                <ul class="navbar-nav">
+                    <li class="nav-item bg-color-home font-color">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> HOME</a>
+                    </li>
+                    <li class="nav-item bg-color-sketch">
+                        <a class="nav-link" href="sketches.html"><i class="fas fa-pencil-alt"></i> SKETCHBOOK</a>
+                    </li>
+                    <li class="nav-item bg-color-finished">
+                        <a class="nav-link" href="finished-art.html"><i class="fas fa-palette"></i> FINISHED ART</a>
+                    </li>
+                    <li class="nav-item bg-color-videos">
+                        <a class="nav-link" href="process.html"><i class="fas fa-video"></i> PROCESS VIDEOS</a>
+                    </li>
+                    <li class="nav-item bg-color-contact">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-comment-alt"></i> CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+
+            <div style="web-bkgrnd-1">
+                <img src="assets/images/web-background.jpg" alt="background-image" class="background" />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="box">
+                    <a href="assets/images/GalactusFINAL.jpg" target="_blank">
+                    <img src="assets/images/GalactusFINAL.jpg"  alt="galactus" width="25%" >
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="box2">
+                    <a href="assets/images/Demon-Hannyajpg.jpg.jpg" target="_blank">
+                    <img src="assets/images/Demon-Hannyajpg.jpg" alt="Demon" width="25%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box3">
+                    <a href="assets/images/treasurejpg.jpg" target="_blank">
+                    <img src="assets/images/treasurejpg.jpg" alt="Treasure" width="25%">
+                    </a>
                 </div>
             </div>
         </div>
-        <div style="web-bkgrnd-1">
-            <img src="assets/images/web-background.jpg" alt="background-image" class="background" />
-        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer text-center">
         <div class="container">
             <div class="row">
-                <div class="column">
-                    <div class="box">
-                        <img src="assets/images/Demon-Hannyajpg.jpg" alt="hannya" width="25%">
-                    </div>
-                    <div class="box2">
-                        <img src="assets/images/GalactusFINAL.jpg" alt="galactus" width="25%">
-                    </div>
-                    <div class="box3">
-                        <img src="assets/images/treasurejpg.jpg" alt="treasure" width="25%">
+
+                <!-- Footer Location -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">What to get in touch? Email me here at</h4>
+                    <p class="lead mb-0">david.thomas1986@gmail.com</p>
+                </div>
+
+                <!-- Footer Social Icons -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Check out my artwork on various social media platforms!</h4>
+                    <div class="social-btn">
+                        <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
+                        <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
                     </div>
 
                 </div>
+
+                <!-- Footer About Text -->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Me</h4>
+                    <p class="lead mb-0"> I am an up and coming illustrator, animator and graphic designer looking for creative opportunities in the industry!
+                    </p>
+                </div>
+
             </div>
         </div>
-        </div>
+    </footer>
 
-        <footer>
-            <div class="footer">
-                <p> Want to contact me about future projects? Email me at david.thomas1986@gmail.com </p>
 
-            </div>
-        </footer>
 </body>
 
 </html>
