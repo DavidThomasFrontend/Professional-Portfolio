@@ -8,6 +8,14 @@ web-bkgrnd-1 {
   background-size: cover;
 }
 
+.h2, h2 {
+  color: #fff;
+}
+
+.social-btn {
+    color: #007bff;
+}
+
 
 
 /**
@@ -217,4 +225,6 @@ p {
 }
 
 }
+
+
 
