@@ -5,6 +5,8 @@ prospective employers. The idea behind the website is to stand out from the crow
 
 From personal experience it's incredibly  difficult to get noticed in the industry. I wanted the website to be simplistic and easy to navigate so employers will stick around and view everything i have to display on the site. I want to have an appealing landing page to keep the viewers attention so they will look deeper in to the website.
 
+Here is my final deployed website: https://vileblood.github.io/Professional-Portfolio/
+
 
 ## UX
 The UX was extremely important in this project. I wanted to make a positive user experience so the user would keep coming back for example when new pieces of art would be uploaded etc.
@@ -83,7 +85,8 @@ The devices i used to test the website was a macbook pro and iPhone XS Max
 
 ## Deployment
 
-The deployment was straight forward enough. i set up a file system through git and made regular git commits 
+The deployment was straight forward enough. i set up a file system through git and made regular git commits.
+Deployed website here: https://vileblood.github.io/Professional-Portfolio/
 
 ## Credits
 
