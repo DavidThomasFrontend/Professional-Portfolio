@@ -26,7 +26,7 @@ As a new visitor to the website, I want view this artist's gallery, and view the
 
 As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Here is a link to my various mockup ideas throughout the project: https://github.com/Vileblood/Professional-Portfolio/tree/master/Mockup%20of%20website
 
 ## Features
 
@@ -49,6 +49,7 @@ The features of my site are as follows:
 ### Features Left to Implement
 
 -  Adding search feature to site for easy and quick reference to artwork.
+- One bug that was not present until i submitted was the footer on the contact page stays in the middle of the page. this was not apparent for the duration of the project. There is no reason why it looks like that as no matter how many times i would test during development this would never show up.
 
 ## Technologies Used
 
