@@ -87,16 +87,16 @@ The deployment was straight forward enough. i set up a file system through git a
 
 ## Credits
 
-### Content
-
--   The text for section Y was copied from the  [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
 
--   The photos used in this site were obtained from ...
+-   The photos used in this site were obtained from me as i drew all the imafges you see apart from the avatar on landing page.
 
 ### Acknowledgements
 
--   I received inspiration for this project from X
+-   I received inspiration for this project from https://www.mockplus.com/blog/post/portfolio-design-websites
+- https://www.shopify.ie/partners/blog/web-design-portfolio-inspiration
+- https://www.webfx.com/blog/web-design/minimalist-portfolio-website/
+- https://www.creativebloq.com/portfolios/examples-712368
 
 
